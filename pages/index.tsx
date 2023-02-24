@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import {data} from "@/app/constant/data";
-import Link from "next/link";
 import Navbar from "@/app/component/Navbar";
 
 
@@ -77,7 +75,7 @@ export default function Home() {
                 </section>
               </div>
             </div>
-            <div className={"md:flex md:items-center md:justify-center md:ml-12 lg:ml-0"}>
+            <div className={"md:flex  md:justify-center md:ml-12 lg:ml-0"}>
               <div >
                 <Image
                     className={"max-w-screen-lg"}
