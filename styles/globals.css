@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  background: #101010!important;
   font-family: "Inter",serif;
 }
 .rotate_me{

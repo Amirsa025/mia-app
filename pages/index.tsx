@@ -77,13 +77,8 @@ export default function Home() {
             </div>
             <div className={"md:flex  md:justify-center md:ml-12 lg:ml-0"}>
               <div >
-                <Image
-                    className={"max-w-screen-lg"}
-                    src="/image/Group.png"
-                    width={740}
-                    height={694.79}
-                    alt="Picture of the author"
-                />
+    
+                <img src="/image/Group.png" alt=""  className={"max-w-screen-sm"}/>
               </div>
             </div>
           </div>
