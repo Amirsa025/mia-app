@@ -78,12 +78,15 @@ export default function Home() {
               </div>
             </div>
             <div className={"md:flex md:items-center md:justify-center md:ml-12 lg:ml-0"}>
-              <Image
-                  src="/image/Group.png"
-                  width={900}
-                  height={694.79}
-                  alt="Picture of the author"
-              />
+              <div >
+                <Image
+                    className={"max-w-screen-xl"}
+                    src="/image/Group.png"
+                    width={900}
+                    height={694.79}
+                    alt="Picture of the author"
+                />
+              </div>
             </div>
           </div>
 
