@@ -11,8 +11,10 @@ const Layout:React.FC<Layout> = ({children}) => {
     return (
         <div className="bg-[#101010] min-h-screen px-8">
             {children}
-            <footer className="block  py-[20px] md:hidden">
-                <ul className={"flex items-center justify-between text-white "}>
+            <footer className=" fixed
+             inset-x-0
+             bottom-0 bg-[#1e1e1e] px-8  block  py-[20px] md:hidden">
+                <ul className={" flex items-center justify-between text-white "}>
                     {
                         data.map(item =>{
                             return(

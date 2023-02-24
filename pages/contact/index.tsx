@@ -23,7 +23,7 @@ const Contact = () => {
                                     <Navbar/>
                                 </div>
                                 <div className={"text-white"} >
-                                    <section className={"pt-[5rem]"}>
+                                    <section className={"pt-[5.95rem]"}>
                                         <div>
                                             <Image
                                                 src="/image/Mia.png"
@@ -32,7 +32,7 @@ const Contact = () => {
                                                 alt="Picture of the author"
                                             />
                                         </div>
-                                        <div className="w-[332px] py-[30px]">
+                                        <div className="w-[332px] py-[14px]">
                                             <p className={"text-[40px] font-bold leading-[99.02%]"}>
                                                 Is there somethings to explore in AI WORLD?<br/>
                                                 Get Started
@@ -41,23 +41,29 @@ const Contact = () => {
                                     </section>
                                     <section className="pt-[3.1rem] flex items-center space-x-8 ">
                                         <div>
-                                            <Image
-                                                src="/image/google.png"
-                                                width={189.53}
-                                                height={56.29}
-                                                alt="google"
-                                            />
+                                            <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                                <Image
+                                                    src="/image/google.png"
+                                                    width={189.53}
+                                                    height={56.29}
+                                                    alt="google"
+                                                />
+                                            </a>
+
                                         </div>
                                         <div>
-                                            <Image
-                                                src="/image/appStore.png"
-                                                width={189.53}
-                                                height={56.29}
-                                                alt="appStore"
-                                            />
+                                            <a href="https://apps.apple.com/us/app/id1668359797">
+                                                <Image
+                                                    src="/image/appStore.png"
+                                                    width={189.53}
+                                                    height={56.29}
+                                                    alt="appStore"
+                                                />
+                                            </a>
+
                                         </div>
                                     </section>
-                                    <section className={"flex items-center space-x-1 py-[3.188rem]"}>
+                                    <section className={"flex items-center space-x-1 py-[2.55rem]"}>
                                         <div className={"w-6 h-6 rounded-full  text-black text-center font-medium"}>
                                             <div className={"sr-only"}>copyright</div>
                                             <Image
@@ -111,22 +117,28 @@ const Contact = () => {
                                     </p>
                                 </div>
                             </section>
-                            <section className="py-[1.8rem] flex items-center space-x-8 ">
+                            <section className="py-[1.8rem] flex items-center space-x-4 ">
                                 <div>
-                                    <Image
-                                        src="/image/google.png"
-                                        width={160}
-                                        height={47}
-                                        alt="Picture of the author"
-                                    />
+                                    <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                        <Image
+                                            src="/image/google.png"
+                                            width={200}
+                                            height={47}
+                                            alt="Picture of the author"
+                                        />
+                                    </a>
+
                                 </div>
                                 <div>
-                                    <Image
-                                        src="/image/appStore.png"
-                                        width={160}
-                                        height={47}
-                                        alt="Picture of the author"
-                                    />
+                                    <a href="https://apps.apple.com/us/app/id1668359797">
+                                        <Image
+                                            src="/image/appStore.png"
+                                            width={200}
+                                            height={47}
+                                            alt="Picture of the author"
+                                        />
+                                    </a>
+
                                 </div>
                             </section>
                             <section className="relative ">

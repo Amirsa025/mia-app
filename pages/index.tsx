@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="md:py-[2.25rem] text-white md:px-[9.25rem] hidden md:block">
-        <Navbar/>
+         <Navbar/>
           <div className="grid grid-cols-2 ">
             <div>
               <div className={"text-white "} >
@@ -41,20 +41,26 @@ export default function Home() {
                 </section>
                 <section className="pt-[3.1rem] flex items-center space-x-8 ">
                   <div>
-                    <Image
-                        src="/image/google.png"
-                        width={189.53}
-                        height={56.29}
-                        alt="google"
-                    />
+                    <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                      <Image
+                          src="/image/google.png"
+                          width={189.53}
+                          height={56.29}
+                          alt="google"
+                      />
+                    </a>
+
                   </div>
                   <div>
-                    <Image
-                        src="/image/appStore.png"
-                        width={189.53}
-                        height={56.29}
-                        alt="appStore"
-                    />
+                    <a href="https://apps.apple.com/us/app/id1668359797">
+                      <Image
+                          src="/image/appStore.png"
+                          width={189.53}
+                          height={56.29}
+                          alt="appStore"
+                      />
+                    </a>
+
                   </div>
                 </section>
                 <section className={"flex items-center space-x-1 py-[3.188rem]"}>
@@ -101,22 +107,28 @@ export default function Home() {
               </p>
             </div>
           </section>
-          <section className="py-[1.8rem] flex items-center space-x-8 ">
+          <section className="py-[1.8rem] flex items-center space-x-4 ">
             <div>
-              <Image
-                  src="/image/google.png"
-                  width={160}
-                  height={47}
-                  alt="Picture of the author"
-              />
+              <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                <Image
+                    src="/image/google.png"
+                    width={200}
+                    height={47}
+                    alt="Picture of the author"
+                />
+              </a>
+
             </div>
             <div>
-              <Image
-                  src="/image/appStore.png"
-                  width={160}
-                  height={47}
-                  alt="Picture of the author"
-              />
+              <a href="https://apps.apple.com/us/app/id1668359797">
+                <Image
+                    src="/image/appStore.png"
+                    width={200}
+                    height={47}
+                    alt="Picture of the author"
+                />
+              </a>
+
             </div>
           </section>
           <section className="relative ">
@@ -130,7 +142,7 @@ export default function Home() {
             </div>
             <div className="absolute bottom-[15px] right-12">
               <Image
-                  src="/image/chatgpt.png"
+                  src="/image/Group39.png"
                   width={130.3}
                   height={173.61}
                   alt="Picture of the author"
