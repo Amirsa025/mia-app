@@ -7,7 +7,7 @@ export  const data = [
     {
         id:2,
         path:"Privacy & Policy",
-        route:"/privacy"
+        route:"/privacy-policy"
     },
     {
         id:3,
