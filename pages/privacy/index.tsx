@@ -74,15 +74,7 @@ const privacy = () => {
 
                         <div className={"md:flex md:items-center md:justify-center  "}>
                             <p>
-                                                    
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
+
                                 Mia - Chat with GPT 4 AI
                                 Privacy Policy
 
