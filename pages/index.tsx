@@ -82,7 +82,7 @@ export default function Home() {
                 <Image
                     className={"max-w-screen-lg"}
                     src="/image/Group.png"
-                    width={900}
+                    width={740}
                     height={694.79}
                     alt="Picture of the author"
                 />
