@@ -11,7 +11,7 @@ const Contact = () => {
                 <title>Mia | Contact us</title>
             </Head>
             <div className={"text-white relative"}>
-                <div className={"absolute top-44 z-40 -left-[10rem]  hidden md:flex"}>
+                <div className={"absolute top-44 z-40 -left-[10rem]  hidden lg:flex"}>
                     <Image
                         className="rotate_me"
                         src="/image/Group39.png"

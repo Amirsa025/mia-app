@@ -16,7 +16,7 @@ const privacy = () => {
                 <div className=" text-white  hidden md:block">
                     <div className="grid grid-cols-2 relative">
                         <div className={"h-screen sticky top-0 text-white  lg:pl-[9.25rem]   hidden md:block"}>
-                            <div className={"absolute top-44 z-40 -left-[10rem]  hidden md:flex"}>
+                            <div className={"absolute top-44 z-40 -left-[10rem]  hidden lg:flex"}>
                                 <Image
                                     priority
                                     className="rotate_me"

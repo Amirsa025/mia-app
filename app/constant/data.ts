@@ -11,12 +11,12 @@ export  const data = [
     },
     {
         id:3,
-        path:" Contact us",
+        path:"Contact us",
         route:"/contact"
     },
     {
         id:4,
-        path:" Terms",
+        path:"Terms",
         route:"/terms"
     },
 ]

@@ -4,7 +4,7 @@ import Image from "next/image";
 const SectionItem = () => {
     return (
         <div>
-            <section className={"pt-[5rem]  lg:px-0"}>
+            <section className={"pt-[5rem]"}>
                 <div>
                     <Image
                         src="/image/Mia.png"
@@ -13,7 +13,7 @@ const SectionItem = () => {
                         alt="Picture of the author"
                     />
                 </div>
-                <div className="w-[332px] py-[30px]">
+                <div className="w-[332px]  py-[30px]">
                     <p className={"text-[40px] font-custom leading-[99.02%]"}>
                         Is there somethings to explore in AI WORLD?<br/>
                         Get Started
