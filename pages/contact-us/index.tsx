@@ -60,10 +60,9 @@ const Contact = () => {
                                     </p>
                                 </div>
                                 <div>
-                                    <button
-                                        className={"w-[330px] h-[50px] rounded-[6px] bg-[#1DEC81] font-bold text-[#101010] text-[1rem]"}>Send
-                                        Email
-                                    </button>
+                                    <form action="mailto:youraddr@domain.tld" method="GET">
+                                        <input type="submit" value="Send" className={"w-[330px] cursor-pointer h-[50px] rounded-[6px] bg-[#1DEC81] font-bold text-[#101010] text-[1rem]"} />
+                                    </form>
                                 </div>
                             </div>
                         </div>

@@ -11,7 +11,7 @@ const privacy = () => {
         <>
             <div className={"text-white "}>
                 <Head>
-                    <title>Mia | Terms of Use</title>
+                    <title>Mia | Privacy & policy</title>
                 </Head>
                 <div className=" text-white  hidden md:block">
                     <div className="grid grid-cols-2 relative">
