@@ -64,7 +64,7 @@ const MobileHome = () => {
                             />
                         </div>
                     </section>
-                    <section className={"flex items-center space-x-1 py-[27px]"}>
+                    <section className={"flex items-center space-x-1 py-[70px]"}>
                         <div className={"w-6 h-6 rounded-full  text-black text-center font-medium"}>
                             <div className={"sr-only"}>copyright</div>
                             <Image
@@ -74,7 +74,7 @@ const MobileHome = () => {
                                 alt="Picture of the author"
                             />
                         </div>
-                        <h3 className="text-[10px] text-[#787878]">All right resaved for Mia Application. Copyright 2023</h3>
+                        <h3 className="text-[12px]   text-[#787878]">All right reserved for Mia Application. Copyright 2023</h3>
                     </section>
                 </div>
             </div>

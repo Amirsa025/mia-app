@@ -93,8 +93,7 @@ const ContactMobile = () => {
                                 alt="Picture of the author"
                             />
                         </div>
-                        <h3 className="text-[10px] text-[#787878]">All right resaved for Mia-GPT 4 Community.
-                            Copyright 2023</h3>
+                        <h3 className="text-[10px] text-[#787878]">All right reserved for Mia Application. Copyright 2023</h3>
                     </section>
                 </div>
             </div>
