@@ -10,7 +10,7 @@ const Navbar:React.FC = () => {
             <div className = "  hidden md:block">
                 <div className={"text-white "} >
                     <nav>
-                        <ul className={"flex items-center space-x-8 text-white  text-[12px]"}>
+                        <ul className={"flex items-center space-x-8 text-white  md:text-[12px] lg:text-[14px] xl:text-[16px]"}>
                             {
                                 data.map(item =>{
                                     return(
