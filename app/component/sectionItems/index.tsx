@@ -4,7 +4,7 @@ import Image from "next/image";
 const SectionItem = () => {
     return (
         <div>
-            <section className={"pt-[5rem] md:px-24 lg:px-0"}>
+            <section className={"pt-[5rem]  lg:px-0"}>
                 <div>
                     <Image
                         src="/image/Mia.png"
