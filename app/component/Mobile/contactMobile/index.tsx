@@ -26,7 +26,6 @@ const ContactMobile = () => {
                         <div className={"md:pt-[68px]"}>
                             <div>
                                 <h1 className=" text-[36px] font-extrabold">Contact US</h1>
-                                <span className="text-[#858585] text-[12px]">Last Update : Feb 23, 2023</span>
                             </div>
                             <div className={"space-y-10"}>
                                 <div className={"pt-[1.8rem]"}>
