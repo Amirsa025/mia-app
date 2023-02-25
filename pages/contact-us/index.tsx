@@ -23,7 +23,7 @@ const Contact = () => {
                 {/*Desktop and tablet*/}
                 <div className=" text-white -z-[10000]  hidden md:block">
                     <div className="grid grid-cols-2 ">
-                        <div className={"md:pt-[68px] text-white lg:pl-[7.25rem]  hidden md:block"}>
+                        <div className={"md:pt-[68px] text-white lg:pl-[7.25rem] xl:lg:pl-[9.25rem]   hidden md:block"}>
                             <div className="">
                                 <Navbar/>
                             </div>
@@ -60,7 +60,7 @@ const Contact = () => {
                                     </p>
                                 </div>
                                 <div>
-                                    <form action="mailto:youraddr@domain.tld" method="GET">
+                                    <form action="mailto:youraddr@gmail.com" method="GET">
                                         <input type="submit" value="Send" className={"w-[330px] cursor-pointer h-[50px] rounded-[6px] bg-[#1DEC81] font-bold text-[#101010] text-[1rem]"} />
                                     </form>
                                 </div>

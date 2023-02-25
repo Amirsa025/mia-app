@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from "next/image";
 import TextPrivacy from "@/app/component/privacyPolicyText";
+import TermsText from "@/app/component/termsText";
 
-const PrivacyMobile = () => {
+const TermsMobile = () => {
     return (
         <>
             <div className="md:hidden flex">
@@ -24,7 +25,7 @@ const PrivacyMobile = () => {
                         </div>
                     </section>
                     <section className="relative ">
-                        <TextPrivacy/>
+                       <TermsText/>
                     </section>
                     <section className="py-[4.8rem] flex items-center space-x-4 flex-col">
                         <div className={"flex items-center space-x-4"}>
@@ -63,11 +64,10 @@ const PrivacyMobile = () => {
                             <h3 className="text-[12px]   text-[#787878]">All right reserved for Mia Application. Copyright 2023</h3>
                         </section>
                     </section>
-
                 </div>
             </div>
         </>
     );
 };
 
-export default PrivacyMobile;
+export default TermsMobile;

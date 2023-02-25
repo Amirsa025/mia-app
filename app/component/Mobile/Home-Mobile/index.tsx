@@ -22,59 +22,42 @@ const MobileHome = () => {
                             </p>
                         </div>
                     </section>
-                    <section className="py-[1.8rem] flex items-center space-x-4 ">
-                        <div>
-                            <a  href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
+                    <section className="py-[3.8rem] flex items-center space-x-4 flex-col">
+                        <div className={"flex items-center space-x-4"}>
+                            <div>
+                                <a  href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
+                                    <Image
+                                        src="/image/google.png"
+                                        width={200}
+                                        height={47}
+                                        alt="Picture of the author"
+                                    />
+                                </a>
+
+                            </div>
+                            <div>
+                                <a  href="https://apps.apple.com/us/app/id1668359797">
+                                    <Image
+                                        src="/image/appStore.png"
+                                        width={200}
+                                        height={47}
+                                        alt="Picture of the author"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                        <section className={"flex items-center space-x-1 pt-[70px] pb-20"}>
+                            <div className={"w-6 h-6 rounded-full  text-black text-center font-medium"}>
+                                <div className={"sr-only"}>copyright</div>
                                 <Image
-                                    src="/image/google.png"
-                                    width={200}
-                                    height={47}
+                                    src="/image/copyRight.png"
+                                    width={20}
+                                    height={20}
                                     alt="Picture of the author"
                                 />
-                            </a>
-
-                        </div>
-                        <div>
-                            <a  href="https://apps.apple.com/us/app/id1668359797"  rel="noopener">
-                                <Image
-                                    src="/image/appStore.png"
-                                    width={200}
-                                    height={47}
-                                    alt="Picture of the author"
-                                />
-                            </a>
-
-                        </div>
-                    </section>
-                    <section className="relative ">
-                        <div className="">
-                            <Image
-                                src="/image/bgGround.png"
-                                width={400.93}
-                                height={354.27}
-                                alt="Picture of the author"
-                            />
-                        </div>
-                        <div className="absolute bottom-[15px] right-12">
-                            <Image
-                                src="/image/Group39.png"
-                                width={130.3}
-                                height={173.61}
-                                alt="Picture of the author"
-                            />
-                        </div>
-                    </section>
-                    <section className={"flex items-center space-x-1 py-[70px]"}>
-                        <div className={"w-6 h-6 rounded-full  text-black text-center font-medium"}>
-                            <div className={"sr-only"}>copyright</div>
-                            <Image
-                                src="/image/copyRight.png"
-                                width={20}
-                                height={20}
-                                alt="Picture of the author"
-                            />
-                        </div>
-                        <h3 className="text-[12px]   text-[#787878]">All right reserved for Mia Application. Copyright 2023</h3>
+                            </div>
+                            <h3 className="text-[12px]   text-[#787878]">All right reserved for Mia Application. Copyright 2023</h3>
+                        </section>
                     </section>
                 </div>
             </div>
