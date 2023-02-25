@@ -17,7 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/favicon.png" />
       </Head>
-      <div className=" md:pt-[68px] text-white  md:pr-[9.25rem] lg:pl-[9.25rem]  hidden md:block ">
+      <div className=" md:pt-[68px] text-white  md:pr-[9.25rem] lg:pl-[7.25rem]  hidden md:block ">
          <Navbar/>
           <div className="grid grid-cols-2 ">
             <div>
