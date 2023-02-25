@@ -14,5 +14,9 @@ export  const data = [
         path:" Contact us",
         route:"/contact"
     },
-
+    {
+        id:4,
+        path:" Terms",
+        route:"/terms"
+    },
 ]

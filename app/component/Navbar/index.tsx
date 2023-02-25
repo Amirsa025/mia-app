@@ -7,7 +7,7 @@ const Navbar:React.FC = () => {
     const router = useRouter();
     return (
         <>
-            <div className = "  hidden md:block">
+            <div className = "  hidden md:block font-Nav">
                 <div className={"text-white "} >
                     <nav>
                         <ul className={"flex items-center space-x-16 text-white "}>

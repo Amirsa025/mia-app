@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from "@/app/component/Navbar";
 import Image from "next/image";
-
+import Head from 'next/head'
 const Contact = () => {
     return (
         <div>
+            <Head>
+                <title>Mia | Contact us</title>
+            </Head>
             <div className={"text-white relative"}>
-                <div className={"absolute top-44 z-40 -left-[10rem] animate-pulse hidden md:flex"}>
+                <div className={"absolute top-44 z-40 -left-[10rem]  hidden md:flex"}>
                     <Image
                         className="rotate_me"
                         src="/image/Group39.png"
@@ -18,7 +21,7 @@ const Contact = () => {
                 {/*Desktop and tablet*/}
                 <div className=" text-white -z-[10000]  hidden md:block">
                     <div className="grid grid-cols-2 ">
-                        <div className={"md:pt-[68px] text-white md:px-[9.25rem] hidden md:block"}>
+                        <div className={"md:pt-[68px] text-white lg:px-[9.25rem] hidden md:block"}>
                             <div className="">
                                 <Navbar/>
                             </div>
@@ -33,17 +36,18 @@ const Contact = () => {
                                                 alt="Picture of the author"
                                             />
                                         </div>
-                                        <div className="w-[332px] py-[30px]">
-                                            <p className={"text-[40px] font-bold leading-[99.02%]"}>
+                                        <div className="w-[332px] py-[30px] ">
+                                            <p className={"text-[40px] font-custom leading-[99.02%]"}>
                                                 Is there somethings to explore in AI WORLD?<br/>
-                                                Get Started
+                                                Get Started .
                                             </p>
                                         </div>
                                     </section>
-                                    <section className="pt-[3.1rem] flex items-center space-x-8 ">
+                                    <section className="pt-[1.188rem] flex items-center space-x-8 ">
                                         <div>
-                                            <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                            <a  href="https://play.google.com/store/apps/details?id=com.mia.app">
                                                 <Image
+                                                    priority
                                                     src="/image/google.png"
                                                     width={189.53}
                                                     height={56.29}
@@ -53,8 +57,9 @@ const Contact = () => {
 
                                         </div>
                                         <div>
-                                            <a href="https://apps.apple.com/us/app/id1668359797">
+                                            <a  href="https://apps.apple.com/us/app/id1668359797">
                                                 <Image
+                                                    priority
                                                     src="/image/appStore.png"
                                                     width={189.53}
                                                     height={56.29}
@@ -175,7 +180,7 @@ const Contact = () => {
                         </section>
                         <section className="py-[1.8rem] flex items-center space-x-4 ">
                             <div>
-                                <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                <a   href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
                                     <Image
                                         src="/image/google.png"
                                         width={200}
@@ -186,7 +191,7 @@ const Contact = () => {
 
                             </div>
                             <div>
-                                <a href="https://apps.apple.com/us/app/id1668359797">
+                                <a href="https://apps.apple.com/us/app/id1668359797" >
                                     <Image
                                         src="/image/appStore.png"
                                         width={200}

@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/favicon.png" />
       </Head>
-      <div className=" md:pt-[68px] text-white md:px-[9.25rem] hidden md:block ">
+      <div className=" md:pt-[68px] text-white  md:pr-[9.25rem] lg:pl-[9.25rem]  hidden md:block ">
          <Navbar/>
           <div className="grid grid-cols-2 ">
             <div>
@@ -30,13 +30,13 @@ export default function Home() {
                     />
                   </div>
                   <div className="w-[332px] py-[30px]">
-                    <p className={"text-[40px] font-bold leading-[99.02%]"}>
+                    <p className={"text-[40px] font-custom leading-[99.02%]"}>
                       Is there somethings to explore in AI WORLD?<br/>
                       Get Started
                     </p>
                   </div>
                 </section>
-                <section className="pt-[3.1rem] flex items-center space-x-8 ">
+                <section className="pt-[1.188rem] flex items-center space-x-8 ">
                   <div>
                     <a href="https://play.google.com/store/apps/details?id=com.mia.app">
                       <Image
@@ -74,10 +74,10 @@ export default function Home() {
                 </section>
               </div>
             </div>
-            <div className={"md:flex  md:justify-center md:ml-12 lg:ml-0"}>
+            <div className={"md:flex md:items-center  md:justify-center md:ml-12 lg:ml-0"}>
               <div >
-
-                <img src="/image/Group.png" alt=""  className={"max-w-screen-sm"}/>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/image/Group.png" alt=""  className={"md:max-w-lg lg:max-w-xl  xl:max-w-2xl  max-w-screen-0"}/>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function Home() {
           </section>
           <section className="py-[1.8rem] flex items-center space-x-4 ">
             <div>
-              <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+              <a  href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
                 <Image
                     src="/image/google.png"
                     width={200}
@@ -115,7 +115,7 @@ export default function Home() {
 
             </div>
             <div>
-              <a href="https://apps.apple.com/us/app/id1668359797">
+              <a  href="https://apps.apple.com/us/app/id1668359797"  rel="noopener">
                 <Image
                     src="/image/appStore.png"
                     width={200}
@@ -154,7 +154,7 @@ export default function Home() {
                   alt="Picture of the author"
               />
             </div>
-            <h3 className="text-[10px] text-[#787878]">All right resaved for Mia-GPT 4 Community. Copyright 2023</h3>
+            <h3 className="text-[10px] text-[#787878]">All right resaved for Mia Application. Copyright 2023</h3>
           </section>
         </div>
       </div>
